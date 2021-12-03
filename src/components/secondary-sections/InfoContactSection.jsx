@@ -20,7 +20,9 @@ const InfoContactSection = () => {
               <li>
                 <i className="fas fa-link"></i>
                 <span className="sr-only">Website:</span>
-                <a href="https://github.com/yattdev">https://www.yatt.tech</a>
+                <a href="https://github.com/yattdev">
+                  https://alassane.yatt.tech
+                </a>
               </li>
             </ul>
           </div>
