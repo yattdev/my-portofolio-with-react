@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Profile from "../assets/images/profile.jpg";
 import { useDarkMode } from "usehooks-ts";
 import { Helmet } from "react-helmet-async";
 
 const PortofolioHeader = () => {
   const { isDarkMode, toggle } = useDarkMode();
+  const [isShow, setIsShow] = useState({ state: false, msg: "" });
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsShow({ msg: "", state: false });
+    }, 3000);
+
+    return () => clearTimeout(timeout);
+  }, [isShow]);
   return (
     <>
       <Helmet>
@@ -24,13 +32,16 @@ const PortofolioHeader = () => {
                 <h2 className="desc">Web App Developer</h2>
                 <ul className="social list-inline">
                   <li className="list-inline-item">
-                    <a href="https://github.com/yattdev">
-                      <i className="fab fa-twitter"></i>
+                    <a href="https://www.linkedin.com/in/alassane-yattara-587477166/">
+                      <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://github.com/yattdev">
-                      <i className="fab fa-linkedin-in"></i>
+                    <a
+                      href="/#"
+                      onClick={() => setIsShow({ state: true, msg: "twitter" })}
+                    >
+                      <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li className="list-inline-item">
@@ -39,15 +50,21 @@ const PortofolioHeader = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href="https://github.com/yattdev">
+                    <a href="https://stackoverflow.com/users/16842251/yatt-developer">
                       <i className="fab fa-stack-overflow"></i>
                     </a>
                   </li>
                   <li className="list-inline-item last-item">
-                    <a href="https://github.com/yattdev">
+                    <a
+                      href="/#"
+                      onClick={() => setIsShow({ state: true, msg: "Codepen" })}
+                    >
                       <i className="fab fa-codepen"></i>
                     </a>
                   </li>
+                  {isShow.state && (
+                    <em className="text-info alert">No {isShow.msg} yet !</em>
+                  )}
                 </ul>
               </div>
             </div>
