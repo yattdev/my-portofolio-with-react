@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "../assets/images/profile.jpg";
 import { useDarkMode } from "usehooks-ts";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const PortofolioHeader = () => {
   const { isDarkMode, toggle } = useDarkMode();
