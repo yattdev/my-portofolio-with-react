@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const ImportScripts = (resourceUrl) => {
+const ImportScripts = (resourceUrl: any) => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = resourceUrl;
