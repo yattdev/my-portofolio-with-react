@@ -86,7 +86,7 @@ const PortofolioHeader = () => {
                     id="darkSwitch"
                     onClick={toggle}
                   />
-                  <label className="custom-control-label" for="darkSwitch">
+                  <label className="custom-control-label" htmlFor="darkSwitch">
                     Dark Mode
                   </label>
                 </div>
