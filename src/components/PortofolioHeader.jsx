@@ -28,8 +28,17 @@ const PortofolioHeader = () => {
                 alt="profile"
               />
               <div className="profile-content">
-                <h1 className="name">James Lee</h1>
-                <h2 className="desc">Web App Developer</h2>
+                <h1 className="name">Yattara Alassane</h1>
+                <h2 className="desc">
+                  Software engineer | FullStack Developer | Starter
+                </h2>
+                <h3 className="desc fw-bolder fst-italic">
+                  MSc Computer Science '21, &nbsp;
+                  <a href="https://fr.wikipedia.org/wiki/Casablanca">
+                    Casablanca
+                  </a>
+                </h3>
+
                 <ul className="social list-inline">
                   <li className="list-inline-item">
                     <a href="https://www.linkedin.com/in/alassane-yattara-587477166/">
