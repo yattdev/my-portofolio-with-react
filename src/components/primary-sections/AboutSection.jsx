@@ -12,12 +12,12 @@ const AboutSection = () => {
               passionate Starter (Creator). Alassane currently holds a master's
               degree in computer science from the Institut Polytechnique Privé
               in Casablanca, Morocco, after obtaining his bachelor's degree in
-              Mathematics, Physics and Chemistry in
+              Mathematics, Physics and Chemistry in &nbsp;
               <a href="https://fr.wikipedia.org/wiki/Bamako">Bamako, Mali</a>.
               <br />
               <br />
               Committed starter, Detail-oriented engineer, Manager, Alassane has
-              designed, implemented and tested complex web applications,
+              designed, implemented and tested complex web applications, &nbsp;
               <a href="https://fr.wikipedia.org/wiki/Representational_state_transfer">
                 RESTFULL API
               </a>
@@ -34,7 +34,9 @@ const AboutSection = () => {
               <br />
               In his spare time, Alassane absorbs books, shares this knowledge,
               contributes to the community in daily actions and also develops
-              <a href="https://github.com/yattdev/">Open source</a> software.
+              &nbsp;
+              <a href="https://github.com/yattdev/">Open source</a> &nbsp;
+              software.
             </p>
           </div>
         </div>
