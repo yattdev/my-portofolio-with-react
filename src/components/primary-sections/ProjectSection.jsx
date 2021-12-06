@@ -96,7 +96,7 @@ const ProjectSection = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="https://album-pochette.herokuapp.com/"
+                href="https://album-pochette.herokuapp.com/api/v1/docs"
                 target="blank"
               >
                 <img
@@ -108,7 +108,7 @@ const ProjectSection = () => {
               <div className="desc col-md-8 col-12">
                 <h3 className="title">
                   <a
-                    href="https://album-pochette.herokuapp.com/"
+                    href="https://album-pochette.herokuapp.com/api/v1/docs"
                     target="blank"
                   >
                     RESTFULL API - TO HANDLE A MUSIC ALBUMS POCHETTE
@@ -129,7 +129,7 @@ const ProjectSection = () => {
                 <p>
                   <a
                     className="more-link"
-                    href="https://album-pochette.herokuapp.com/"
+                    href="https://album-pochette.herokuapp.com/api/v1/docs"
                     target="blank"
                   >
                     <i className="fas fa-external-link-alt"></i>Find out more
