@@ -1,4 +1,5 @@
 import React from "react";
+import { MDBIcon } from "mdb-react-ui-kit";
 
 const LastPostSection = () => {
   return (
@@ -7,7 +8,7 @@ const LastPostSection = () => {
         <div className="section-inner shadow-sm rounded">
           <h2 className="heading">Latest Blog Posts</h2>
           <p>
-            How to install &nbsp;
+            <MDBIcon fab icon="medium" /> &nbsp; How to install &nbsp;
             <a
               href="https://yattdeveloper.medium.com/how-to-install-vim-with-clipboard-on-ubuntu18-to-20-x-5cc4970eb3dc"
               target="blank"
