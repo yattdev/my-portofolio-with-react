@@ -5,23 +5,23 @@ const SkillSection = () => {
     <>
       <aside className="skills aside section">
         <div className="section-inner shadow-sm rounded">
-          <h2 className="heading">Skills</h2>
+          <h2 className="heading">Skills &amp; Tools</h2>
           <div className="content">
             <p className="intro">
-              Intro about your skills goes here. Keep the list lean and only
-              show your primary skillset. You can always provide a link to your
-              Linkedin or Github profile so people can get more info there.
+              Modern go-getter, seasoned developer, in his adventure, Alassane
+              has developed full stack skills in development, AI and management
+              skills.
             </p>
 
             <div className="skillset">
               <div className="item">
                 <h3 className="level-title">
-                  Python &amp; Django
+                  Python, Django &amp; DRF
                   <span
                     className="level-label"
                     data-bs-toggle="tooltip"
                     data-bs-placement="left"
-                    title="You can use the tooltip to explain more about your skill level..."
+                    title="seasoned full stack python developer, with django, django-rest-framework"
                   >
                     <i className="fas fa-info-circle"></i>Expert
                   </span>
@@ -41,22 +41,22 @@ const SkillSection = () => {
 
               <div className="item">
                 <h3 className="level-title">
-                  Javascript &amp; jQuery
+                  Reactjs &amp; Vuejs
                   <span
                     className="level-label"
                     data-bs-toggle="tooltip"
                     data-bs-placement="left"
-                    title="You can use the tooltip to explain more about your skill level..."
+                    title="seasoned and confirmed full stack Reactjs and Vuejs developer, and use django rest framework as backend"
                   >
-                    <i className="fas fa-info-circle"></i>Expert
+                    <i className="fas fa-info-circle"></i>Pro
                   </span>
                 </h3>
                 <div className="level-bar progress">
                   <div
                     className="progress-bar level-bar-inner"
                     role="progressbar"
-                    style={{ width: "94%" }}
-                    aria-valuenow="94"
+                    style={{ width: "90%" }}
+                    aria-valuenow="90"
                     aria-valuemin="0"
                     aria-valuemax="94"
                   ></div>
@@ -89,7 +89,7 @@ const SkillSection = () => {
 
               <div className="item">
                 <h3 className="level-title">
-                  Ruby on Rails
+                  DevOps tools
                   <span
                     className="level-label"
                     data-bs-toggle="tooltip"
@@ -112,8 +112,11 @@ const SkillSection = () => {
               </div>
 
               <p>
-                <a className="more-link" href="https://backenk.yatt.tech">
-                  <i className="fas fa-external-link-alt"></i>More on GitHub
+                <a
+                  className="more-link"
+                  href="https://www.linkedin.com/in/alassane-yattara-587477166/"
+                >
+                  <i className="fas fa-external-link-alt"></i>More on Linkedin
                 </a>
               </p>
             </div>
