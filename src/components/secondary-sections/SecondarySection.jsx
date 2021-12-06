@@ -7,7 +7,7 @@ import LastPostSection from "./LastPostSection";
 import ListVolunteerSection from "./ListVolunteerSection";
 import ListMusicSection from "./ListMusicSection";
 import SkillSection from "./SkillSection";
-import TestimonialSection from "./TestimonialSection";
+// import TestimonialSection from "./TestimonialSection";
 
 const SecondarySection = () => {
   return (
@@ -18,9 +18,6 @@ const SecondarySection = () => {
 
         {/* skill section */}
         <SkillSection />
-
-        {/* testimonials section */}
-        <TestimonialSection />
 
         {/* education section */}
         <EducationSection />
