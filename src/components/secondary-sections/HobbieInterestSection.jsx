@@ -22,12 +22,8 @@ const HobbieInterestSection = () => {
                 <span>Football (Soccer)</span>
               </li>
               <li>
-                <MDBIcon fas icon="radiation-alt" />
-                <span>Adventure (Road Trips)</span>
-              </li>
-              <li>
                 <MDBIcon fas icon="gamepad" />
-                <span>PlayStation Game (FIFA, Adventure, Action)</span>
+                <span>PlayStation Game (FIFA, Adventure)</span>
               </li>
             </ul>
           </div>
