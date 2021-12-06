@@ -30,7 +30,7 @@ const PortofolioHeader = () => {
               <div className="profile-content">
                 <h1 className="name">Yattara Alassane</h1>
                 <h2 className="desc">
-                  Software engineer | FullStack Developer | Starter
+                  Software Engineer | FullStack Developer | Starter
                 </h2>
                 <h3 className="desc fw-bolder fst-italic">
                   MSc Computer Science '21, &nbsp;
