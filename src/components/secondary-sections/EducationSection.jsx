@@ -12,17 +12,22 @@ const EducationSection = () => {
                 <i className="fas fa-graduation-cap"></i> MSc Computer Science
               </h3>
               <h4 className="university">
-                University College London
-                <span className="year">(2017-2018)</span>
+                PRIVATE POLYTECHNIC INSTITUTE OF CASABLANCA <br />
+                <span className="year position-relative start-50">
+                  (2016-2021)
+                </span>
               </h4>
             </div>
             <div className="item">
               <h3 className="title">
-                <i className="fas fa-graduation-cap"></i> BSc Computer Science
+                <i className="fas fa-graduation-cap"></i> BSc Mathematics,
+                Physics &amp; Chemistry
               </h3>
               <h4 className="university">
-                University of Bristol
-                <span className="year">(2013-2017)</span>
+                BAMINATA COULIBALY HIGH SCHOOL <br />
+                <span className="year position-relative start-50">
+                  (2012-2016)
+                </span>
               </h4>
             </div>
           </div>
