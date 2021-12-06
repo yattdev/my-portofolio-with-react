@@ -183,7 +183,7 @@ const ProjectSection = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"
+                href="https://color.yatt.tech"
                 target="blank"
               >
                 <img
@@ -194,10 +194,7 @@ const ProjectSection = () => {
               </a>
               <div className="desc col-md-8 col-12">
                 <h3 className="title">
-                  <a
-                    href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"
-                    target="blank"
-                  >
+                  <a href="https://color.yatt.tech" target="blank">
                     Color Generator: A color tool for developers and designer
                   </a>
                 </h3>
@@ -221,7 +218,7 @@ const ProjectSection = () => {
                 <p>
                   <a
                     className="more-link"
-                    href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/"
+                    href="https://color.yatt.tech"
                     target="blank"
                   >
                     <i className="fas fa-external-link-alt"></i>Find out more
