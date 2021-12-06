@@ -1,10 +1,10 @@
 import React from "react";
-import CreditSection from "./CreditSection";
+import HobbieInterestSection from "./HobbieInterestSection";
 import EducationSection from "./EducationSection";
 import InfoContactSection from "./InfoContactSection";
 import LanguageSection from "./LanguageSection";
 import LastPostSection from "./LastPostSection";
-import ListConferenceSection from "./ListConferenceSection";
+import ListVolunteerSection from "./ListVolunteerSection";
 import ListMusicSection from "./ListMusicSection";
 import SkillSection from "./SkillSection";
 import TestimonialSection from "./TestimonialSection";
@@ -34,11 +34,11 @@ const SecondarySection = () => {
         {/* ListMusic section */}
         <ListMusicSection />
 
-        {/* ListConference section */}
-        <ListConferenceSection />
+        {/* ListVolunteer section */}
+        <ListVolunteerSection />
 
-        {/* CreditSection section */}
-        <CreditSection />
+        {/* Hobbies and Interests section */}
+        <HobbieInterestSection />
       </div>
     </>
   );
