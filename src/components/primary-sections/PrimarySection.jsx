@@ -1,4 +1,3 @@
-import React from "react";
 import AboutSection from "./AboutSection";
 import ProjectSection from "./ProjectSection";
 import OtherProjectSection from "./OtherProjectSection";
@@ -13,10 +12,10 @@ const PrimarySection = () => {
         <AboutSection />
         {/*projects sections */}
         <ProjectSection />
-        {/*other projects sections*/}
-        <OtherProjectSection />
         {/* experience sections */}
         <ExperienceSection />
+        {/*other projects sections*/}
+        <OtherProjectSection />
         {/* github sections */}
         <GithubSection />
       </div>
