@@ -5,80 +5,86 @@ const OtherProjectSection = () => {
     <>
       <section className="projects section">
         <div className="section-inner shadow-sm rounded">
-          <h2 className="heading">Other Projects</h2>
+          <h2 className="heading">Other Open Source Projects</h2>
           <div className="content">
             <div className="item">
               <h3 className="title">
                 <a
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/"
+                  href="https://github.com/yattdev/django-docker-postgres"
                   target="blank"
                 >
-                  Pillar - Free Boootstrap Resume/CV Template for Developers
-                </a>{" "}
+                  DJANGO API: A ready to start django rest api with User &nbsp;
+                </a>
                 <span className="badge badge-theme">Free</span>
               </h3>
               <p className="summary">
-                Provide a brief description of your project. Ut enim ad minima
-                veniam, quis nostrum exercitationem ullam corporis suscipit
-                laboriosam, nisi ut aliquid ex ea commodi consequatu.
+                Running Django + PostgreSQL containers and persisting data with
+                Docker. A big reason to use Docker is that it completely removes
+                any issues around local development set up. Instead of worrying
+                about which software packages are installed or running a local
+                database alongside a project, you simply run a Docker image of
+                the entire project. Best of all, this can be shared in groups
+                and makes team development much simpler.
               </p>
               <p>
                 <a
                   className="more-link"
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/"
+                  href="https://github.com/yattdev/django-docker-postgres"
                   target="blank"
                 >
-                  <i className="fas fa-external-link-alt"></i>Download Now
+                  <i className="fas fa-external-link-alt"></i>Try now
+                </a>
+              </p>
+            </div>
+            <div className="item">
+              <h3 className="title">
+                <a href="https://github.com/yattdev/backend_edu" target="blank">
+                  RESTFULL API MADE WITH DJANGO, FOR E-LEARNING PLATFORM &nbsp;
+                </a>
+                <span className="badge badge-theme">Free</span>
+              </h3>
+              <p className="summary">
+                This app responsible for creating the courses and handling CRUD
+                operations on them, it also has a simple api for enable working
+                with the site through api consumers, possibility for the student
+                enrollment into courses and displaying the content of the
+                courses to students.
+              </p>
+              <p>
+                <a
+                  className="more-link"
+                  href="https://github.com/yattdev/backend_edu"
+                  target="blank"
+                >
+                  <i className="fas fa-external-link-alt"></i>Try now
                 </a>
               </p>
             </div>
             <div className="item">
               <h3 className="title">
                 <a
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/"
+                  href="https://github.com/yattdev/data-set-nlu"
                   target="blank"
                 >
-                  DevBlog - Free Boootstrap Blog Template for Developers
-                </a>{" "}
-                <span className="badge badge-theme">Free</span>
-              </h3>
-              <p className="summary">
-                Provide a brief description of your project. Maecenas ornare
-                ultricies risus, in fermentum augue consectetur in. Vestibulum
-                vitae mauris iaculis, sollicitudin velit in, molestie nulla.{" "}
-              </p>
-              <p>
-                <a
-                  className="more-link"
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/"
-                  target="blank"
-                >
-                  <i className="fas fa-external-link-alt"></i>Download Now
+                  NLU DATA: A DATA-SET FOR VIRTUAL PERSONAL ASSISTANT &nbsp;
                 </a>
-              </p>
-            </div>
-            <div className="item">
-              <h3 className="title">
-                <a
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/"
-                  target="blank"
-                >
-                  Nova - Free App Landing Page Template for App Developers
-                </a>{" "}
                 <span className="badge badge-theme">Free</span>
               </h3>
               <p className="summary">
-                Provide a brief description of your project. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. In vel purus enim. Etiam
-                tortor felis, fermentum ac ultrices sed.
+                The goal of NLU (Natural Language Understanding) is to extract
+                structured information from user messages. This usually includes
+                the user's intent and any entities their message contains. NLU
+                training data consists of example user utterances categorized by
+                intent. This dataset is an example for educational IA assistant,
+                a extentions created while Jady development.
               </p>
               <p>
                 <a
                   className="more-link"
-                  href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/"
+                  href="https://github.com/yattdev/data-set-nlu"
                   target="blank"
                 >
-                  <i className="fas fa-external-link-alt"></i>Download Now
+                  <i className="fas fa-external-link-alt"></i>Try Now
                 </a>
               </p>
             </div>
