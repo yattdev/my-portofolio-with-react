@@ -6,7 +6,7 @@ const LastBookReadSection = () => {
     <>
       <aside className="blog aside section">
         <div className="section-inner shadow-sm rounded">
-          <h2 className="heading">Last Books Read</h2>
+          <h2 className="heading">Latest Books Read</h2>
           <p style={{ textIndent: "-0.4em" }}>
             <strong style={{ fontSize: "1.1em" }}>
               Engineering: &nbsp;&nbsp;
