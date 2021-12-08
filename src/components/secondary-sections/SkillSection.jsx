@@ -141,7 +141,7 @@ const SkillSection = () => {
                   Framework.
                 </span>
                 <strong>Java: &nbsp;&nbsp;</strong>
-                <span>SpringTools</span>
+                <span>SpringBoot</span>
                 <br />
                 <strong>Javascript/Typescript: &nbsp;&nbsp;</strong>
                 <span>NodeJs</span>
@@ -271,79 +271,47 @@ const SkillSection = () => {
                   IDE: &nbsp;&nbsp;
                 </strong>
                 <br />
-                <span>Vim, VSCode, SpringTools</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>NodeJs</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
+                <span>Vim/SpaceVim, VSCode, SpringTools</span>
               </p>
               {/* Operating Systems tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
-                  Operating Systems:
+                  Operating Systems: &nbsp;&nbsp;
+                  <MDBIcon fab icon="ubuntu" />
+                  <MDBIcon fab icon="apple" />
+                  <MDBIcon fab icon="windows" />
                 </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: &nbsp;&nbsp; </strong>
-                <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
-                </span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>NodeJs</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
+                <span>Ubuntu, Windows, MacOS</span>
               </p>
               {/* Other Skills tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
                   {" "}
                   Other Skills: &nbsp;&nbsp;
+                  <MDBIcon fab icon="html5" />
+                  <MDBIcon fab icon="css3" />
+                  <MDBIcon fas icon="terminal" />
+                  <MDBIcon fas icon="server" />
                 </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
+                  HTML5, CSS3, Shell-scripting, Nginx, ssh, mdb/Bootstrap,
+                  Hadoop, C/C++, Go language, Php/laravel.
                 </span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>NodeJs</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* Methodologies tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
-                  {" "}
                   Methodologies: &nbsp;&nbsp;
                 </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
+                  Agile Software Development (Scrum, Kanban), CI/CD, Distributed
+                  Systems, Test-driven Development, Coversational-driven
+                  Development(bot) Engineering Best Practices,
+                  Concurrent/Parallel Programming.
                 </span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>NodeJs</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
             </div>
           </div>
