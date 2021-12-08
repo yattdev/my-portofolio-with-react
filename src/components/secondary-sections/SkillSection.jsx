@@ -140,6 +140,7 @@ const SkillSection = () => {
                   Django, Django Rest Framework, Flask, FastAPI, Sanic
                   Framework.
                 </span>
+                <br />
                 <strong>Java: &nbsp;&nbsp;</strong>
                 <span>SpringBoot</span>
                 <br />
