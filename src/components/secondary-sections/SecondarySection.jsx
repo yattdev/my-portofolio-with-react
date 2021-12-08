@@ -1,6 +1,7 @@
 import React from "react";
 import HobbieInterestSection from "./HobbieInterestSection";
 import EducationSection from "./EducationSection";
+import LastBookReadSection from "./LastBookReadSection";
 import InfoContactSection from "./InfoContactSection";
 import LanguageSection from "./LanguageSection";
 import LastPostSection from "./LastPostSection";
@@ -27,6 +28,9 @@ const SecondarySection = () => {
 
         {/* LastPost section */}
         <LastPostSection />
+
+        {/* LastBookRead section */}
+        <LastBookReadSection />
 
         {/* ListMusic section */}
         <ListMusicSection />
