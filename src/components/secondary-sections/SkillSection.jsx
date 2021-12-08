@@ -1,9 +1,9 @@
 import React from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
-import PostgreSQLIcons from "../../assets/images/icons/postgresql_icon.svg";
-import MySQLIcons from "../../assets/images/icons/mysql-icon.svg";
-import MongoDBIcons from "../../assets/images/icons/mongodb-icon.svg";
-import ElasticsearchIcons from "../../assets/images/icons/elastic-icon.svg";
+import PostgreSQLIcons from "../../assets/images/icons/postgresql_icon.png";
+import MySQLIcons from "../../assets/images/icons/mysql-icon.png";
+import DevOpsIcons from "../../assets/images/icons/devops.png";
+import ElasticsearchIcons from "../../assets/images/icons/elastic-icon.png";
 
 const SkillSection = () => {
   return (
@@ -140,6 +140,8 @@ const SkillSection = () => {
                   Django, Django Rest Framework, Flask, FastAPI, Sanic
                   Framework.
                 </span>
+                <strong>Java: &nbsp;&nbsp;</strong>
+                <span>SpringTools</span>
                 <br />
                 <strong>Javascript/Typescript: &nbsp;&nbsp;</strong>
                 <span>NodeJs</span>
@@ -192,26 +194,23 @@ const SkillSection = () => {
                 <strong style={{ fontSize: "1.1em" }}>
                   Databases: &nbsp;&nbsp;
                   <MDBIcon fas icon="database" />
+                  &nbsp;
                   <img
-                    style={{ inlineSize: "2em" }}
+                    style={{ inlineSize: "1.2em" }}
                     src={PostgreSQLIcons}
                     alt="PostgreSQL icon"
                     srcset=""
                   />
+                  &nbsp;
                   <img
-                    style={{ inlineSize: "1.5em" }}
+                    style={{ inlineSize: "1.2em" }}
                     src={MySQLIcons}
                     alt="PostgreSQL icon"
                     srcset=""
                   />
+                  &nbsp;
                   <img
-                    style={{ inlineSize: "1.5em" }}
-                    src={MongoDBIcons}
-                    alt="PostgreSQL icon"
-                    srcset=""
-                  />
-                  <img
-                    style={{ inlineSize: "1em" }}
+                    style={{ inlineSize: "1.2em" }}
                     src={ElasticsearchIcons}
                     alt="PostgreSQL icon"
                     srcset=""
@@ -224,7 +223,7 @@ const SkillSection = () => {
                 <strong>NoSQL: &nbsp;&nbsp; </strong>
                 <span>Elasticsearch, Search Engine Whoosh</span>
                 <br />
-                <strong>Data Objects: &nbsp;&nbsp; </strong>
+                <strong>Data Objects/Transferts: &nbsp;&nbsp; </strong>
                 <span>MongoDB, JSON, YAML</span>
               </p>
               {/* Artificial Intelligence tools */}
@@ -232,39 +231,38 @@ const SkillSection = () => {
                 <strong style={{ fontSize: "1.1em" }}>
                   Artificial Intelligence: &nbsp;&nbsp;
                   <MDBIcon fab icon="python" />
+                  <MDBIcon fas icon="robot" />
                 </strong>
                 <br />
                 <strong>Machine Learning: &nbsp;&nbsp; </strong>
-                <span>Rasa open source, NLP,</span>
+                <span>NLP Chatbot with Rasa open source</span>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>NodeJs</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
+                <strong>Robotics: &nbsp;&nbsp; </strong>
+                <span>ROS, Raspberry, Arduino</span>
               </p>
               {/* DevOps tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
-                  {" "}
                   DevOps: &nbsp;&nbsp;
+                  <img
+                    style={{ inlineSize: "1.2em" }}
+                    src={DevOpsIcons}
+                    alt="PostgreSQL icon"
+                    srcset=""
+                  />
+                  &nbsp;
+                  <MDBIcon fab icon="aws" />
+                  <MDBIcon fab icon="jenkins" />
+                  <MDBIcon fab icon="git-alt" />
+                  <MDBIcon fab icon="github" />
+                  <MDBIcon fab icon="gitlab" />
+                  <MDBIcon fab icon="docker" />
                 </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
+                  Git, GitGuardian, Github Action, Docker/Compose, CircleCI,
+                  AWS(EC2, S3, RDS, ECR), Heroku, Jenkins.
                 </span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>NodeJs</span>
-                <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* IDE tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -273,13 +271,7 @@ const SkillSection = () => {
                   IDE: &nbsp;&nbsp;
                 </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: &nbsp;&nbsp; </strong>
-                <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
-                </span>
+                <span>Vim, VSCode, SpringTools</span>
                 <br />
                 <MDBIcon fab icon="python" />
                 <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
