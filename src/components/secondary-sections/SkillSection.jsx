@@ -1,5 +1,9 @@
 import React from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
+import PostgreSQLIcons from "../../assets/images/icons/postgresql_icon.svg";
+import MySQLIcons from "../../assets/images/icons/mysql-icon.svg";
+import MongoDBIcons from "../../assets/images/icons/mongodb-icon.svg";
+import ElasticsearchIcons from "../../assets/images/icons/elastic-icon.svg";
 
 const SkillSection = () => {
   return (
@@ -131,16 +135,23 @@ const SkillSection = () => {
                   <MDBIcon fab icon="node-js" />
                 </strong>
                 <br />
-                <strong>Python: </strong>
+                <strong>Python: &nbsp;&nbsp;</strong>
                 <span>
                   Django, Django Rest Framework, Flask, FastAPI, Sanic
                   Framework.
                 </span>
                 <br />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp;</strong>
                 <span>NodeJs</span>
                 <br />
-                <strong>Testing:</strong> Unit-tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit-tests, JMeter
+              </p>
+              {/* API Specification web tools */}
+              <p style={{ textIndent: "-0.6em" }}>
+                <strong style={{ fontSize: "1.1em" }}>
+                  API Specification: &nbsp;&nbsp;
+                </strong>
+                <span>REST</span>
               </p>
               {/* Frontend web tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -153,13 +164,13 @@ const SkillSection = () => {
                   <MDBIcon fab icon="wordpress" />
                 </strong>
                 <br />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>ReactJS, VueJS, AngularJS</span>
                 <br />
                 <strong>CMS: </strong>
                 <span>Django CMS, WordPress, Prestashop</span>
                 <br />
-                <strong>Testing:</strong> Selenium, Katalon
+                <strong>Testing: &nbsp;&nbsp;</strong> Selenium, Katalon
               </p>
               {/* UI Design web tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -170,60 +181,78 @@ const SkillSection = () => {
                   <MDBIcon fab icon="microsoft" />
                 </strong>
                 <br />
-                <strong>UI/Prototyping: </strong>
+                <strong>UI/Prototyping: &nbsp;&nbsp; </strong>
                 <span>Photoshop, Figma</span>
                 <br />
-                <strong>Presentation: </strong>
+                <strong>Presentation: &nbsp;&nbsp; </strong>
                 <span>Canva, Microsoft PowerPoint</span>
-                <br />
-                <strong>Testing:</strong> Unit tests, JMeter
               </p>
               {/* Databases tools */}
               <p style={{ textIndent: "-0.6em" }}>
-                <strong style={{ fontSize: "1.1em" }}> Databases:</strong>
+                <strong style={{ fontSize: "1.1em" }}>
+                  Databases: &nbsp;&nbsp;
+                  <MDBIcon fas icon="database" />
+                  <img
+                    style={{ inlineSize: "2em" }}
+                    src={PostgreSQLIcons}
+                    alt="PostgreSQL icon"
+                    srcset=""
+                  />
+                  <img
+                    style={{ inlineSize: "1.5em" }}
+                    src={MySQLIcons}
+                    alt="PostgreSQL icon"
+                    srcset=""
+                  />
+                  <img
+                    style={{ inlineSize: "1.5em" }}
+                    src={MongoDBIcons}
+                    alt="PostgreSQL icon"
+                    srcset=""
+                  />
+                  <img
+                    style={{ inlineSize: "1em" }}
+                    src={ElasticsearchIcons}
+                    alt="PostgreSQL icon"
+                    srcset=""
+                  />
+                </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
-                <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
-                </span>
+                <strong>PL/SQL: &nbsp;&nbsp; </strong>
+                <span>PostgreSQL, MySQL, SQLite</span>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
-                <span>NodeJs</span>
+                <strong>NoSQL: &nbsp;&nbsp; </strong>
+                <span>Elasticsearch, Search Engine Whoosh</span>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Data Objects: &nbsp;&nbsp; </strong>
+                <span>MongoDB, JSON, YAML</span>
               </p>
               {/* Artificial Intelligence tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
-                  Artificial Intelligence:
+                  Artificial Intelligence: &nbsp;&nbsp;
+                  <MDBIcon fab icon="python" />
                 </strong>
                 <br />
-                <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
-                <span>
-                  Django, Django Rest Framework, Machine Learning, NLP, Rasa
-                  Open Source, FastAPI, Flask, Sanic Framework, Search Engine
-                  Whoosh.
-                </span>
+                <strong>Machine Learning: &nbsp;&nbsp; </strong>
+                <span>Rasa open source, NLP,</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>NodeJs</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* DevOps tools */}
               <p style={{ textIndent: "-0.6em" }}>
-                <strong style={{ fontSize: "1.1em" }}> DevOps:</strong>
+                <strong style={{ fontSize: "1.1em" }}>
+                  {" "}
+                  DevOps: &nbsp;&nbsp;
+                </strong>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
+                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
                   Django, Django Rest Framework, Machine Learning, NLP, Rasa
                   Open Source, FastAPI, Flask, Sanic Framework, Search Engine
@@ -231,18 +260,21 @@ const SkillSection = () => {
                 </span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>NodeJs</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* IDE tools */}
               <p style={{ textIndent: "-0.6em" }}>
-                <strong style={{ fontSize: "1.1em" }}> IDE:</strong>
+                <strong style={{ fontSize: "1.1em" }}>
+                  {" "}
+                  IDE: &nbsp;&nbsp;
+                </strong>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
+                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
                   Django, Django Rest Framework, Machine Learning, NLP, Rasa
                   Open Source, FastAPI, Flask, Sanic Framework, Search Engine
@@ -250,11 +282,11 @@ const SkillSection = () => {
                 </span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>NodeJs</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* Operating Systems tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -263,7 +295,7 @@ const SkillSection = () => {
                 </strong>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
+                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
                   Django, Django Rest Framework, Machine Learning, NLP, Rasa
                   Open Source, FastAPI, Flask, Sanic Framework, Search Engine
@@ -271,18 +303,21 @@ const SkillSection = () => {
                 </span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>NodeJs</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* Other Skills tools */}
               <p style={{ textIndent: "-0.6em" }}>
-                <strong style={{ fontSize: "1.1em" }}> Other Skills:</strong>
+                <strong style={{ fontSize: "1.1em" }}>
+                  {" "}
+                  Other Skills: &nbsp;&nbsp;
+                </strong>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
+                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
                   Django, Django Rest Framework, Machine Learning, NLP, Rasa
                   Open Source, FastAPI, Flask, Sanic Framework, Search Engine
@@ -290,18 +325,21 @@ const SkillSection = () => {
                 </span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>NodeJs</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
               {/* Methodologies tools */}
               <p style={{ textIndent: "-0.6em" }}>
-                <strong style={{ fontSize: "1.1em" }}> Methodologies:</strong>
+                <strong style={{ fontSize: "1.1em" }}>
+                  {" "}
+                  Methodologies: &nbsp;&nbsp;
+                </strong>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Python: </strong>
+                <strong>Python: &nbsp;&nbsp; </strong>
                 <span>
                   Django, Django Rest Framework, Machine Learning, NLP, Rasa
                   Open Source, FastAPI, Flask, Sanic Framework, Search Engine
@@ -309,11 +347,11 @@ const SkillSection = () => {
                 </span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Javascript/Typescript: </strong>
+                <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
                 <span>NodeJs</span>
                 <br />
                 <MDBIcon fab icon="python" />
-                <strong>Testing:</strong> Unit tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit tests, JMeter
               </p>
             </div>
           </div>
