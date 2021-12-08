@@ -9,7 +9,10 @@ const Experience = () => {
           <div className="content">
             <div className="item">
               <h3 className="title">
-                Machine Learning Developer &amp; AI Developer - &nbsp;
+                <a href="https://github.com/yattdev">
+                  Machine Learning Developer &amp; AI Developer -
+                </a>
+                &nbsp;
                 <span className="place">
                   <a href="https://github.com/yattdev">PFE Project</a> &nbsp;
                 </span>
@@ -34,9 +37,14 @@ const Experience = () => {
             </div>
             <div className="item">
               <h3 className="title">
-                Software Developer - &nbsp;
+                <a href="https://www.linkedin.com/company/smartech-expert/about/">
+                  Software Developer -
+                </a>
+                &nbsp;
                 <span className="place">
-                  <a href="https://github.com/yattdev">Smartech-Expert</a>{" "}
+                  <a href="https://www.linkedin.com/company/smartech-expert/about/">
+                    Smartech-Expert
+                  </a>
                   &nbsp;
                 </span>
                 <span className="year">(Casablanca, Maroc)(2019 - 2020)</span>
@@ -53,9 +61,12 @@ const Experience = () => {
             </div>
             <div className="item">
               <h3 className="title">
-                Software Developer and Fonctional Tester - &nbsp;
+                <a href="https://www.koolskools.com/">
+                  Software Developer and Fonctional Tester -
+                </a>
+                &nbsp;
                 <span className="place">
-                  <a href="https://github.com/yattdev">Accurate</a> &nbsp;
+                  <a href="https://www.koolskools.com/">Accurate</a> &nbsp;
                 </span>
                 <span className="year">(Casablanca, Maroc)(2018 - 2019)</span>
               </h3>
@@ -75,9 +86,15 @@ const Experience = () => {
             </div>
             <div className="item">
               <h3 className="title">
-                Remote Web Developer - &nbsp;
+                <a href="https://www.freelancer.ma/profil/14451-orgone">
+                  Remote Web Developer -
+                </a>
+                &nbsp;
                 <span className="place">
-                  <a href="https://github.com/yattdev">Online</a> &nbsp;
+                  <a href="https://www.freelancer.ma/profil/14451-orgone">
+                    Online
+                  </a>{" "}
+                  &nbsp;
                 </span>
                 <span className="year">
                   (Casablanca, Maroc)(2018 - Present)
