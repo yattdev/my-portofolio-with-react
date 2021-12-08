@@ -16,11 +16,11 @@ const SecondarySection = () => {
         {/* info contact section */}
         <InfoContactSection />
 
-        {/* skill section */}
-        <SkillSection />
-
         {/* education section */}
         <EducationSection />
+
+        {/* skill section */}
+        <SkillSection />
 
         {/* languages section */}
         <LanguageSection />
