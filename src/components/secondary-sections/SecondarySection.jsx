@@ -17,20 +17,20 @@ const SecondarySection = () => {
         {/* info contact section */}
         <InfoContactSection />
 
-        {/* education section */}
-        <EducationSection />
-
         {/* skill section */}
         <SkillSection />
+
+        {/* education section */}
+        <EducationSection />
 
         {/* languages section */}
         <LanguageSection />
 
-        {/* LastPost section */}
-        <LastPostSection />
-
         {/* LastBookRead section */}
         <LastBookReadSection />
+
+        {/* LastPost section */}
+        <LastPostSection />
 
         {/* ListMusic section */}
         <ListMusicSection />
