@@ -5,17 +5,11 @@ import Home from "./pages/Home";
 import IndexPortofolio from "./pages/IndexPortofolio";
 import Error from "./pages/Error";
 
-// <!-- FontAwesome JS -->
-// import "./assets/fontawesome/js/all.js";
-
 // <!-- Global CSS -->
 import "./assets/plugins/bootstrap/css/bootstrap.min.css";
 
 // <!-- github calendar css -->
 import "./assets/plugins/github-calendar/dist/github-calendar-responsive.css";
-
-// <!-- github activity css -->
-import "./assets/plugins/github-activity/src/github-activity.css";
 
 // <!-- Theme CSS -->
 import "./assets/css/styles.css";
