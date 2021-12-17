@@ -1,9 +1,5 @@
 import React from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
-import PostgreSQLIcons from "../../assets/images/icons/postgresql_icon.png";
-import MySQLIcons from "../../assets/images/icons/mysql-icon.png";
-import DevOpsIcons from "../../assets/images/icons/devops.png";
-import ElasticsearchIcons from "../../assets/images/icons/elastic-icon.png";
 
 const SkillSection = () => {
   return (
@@ -195,27 +191,6 @@ const SkillSection = () => {
                 <strong style={{ fontSize: "1.1em" }}>
                   Databases: &nbsp;&nbsp;
                   <MDBIcon fas icon="database" />
-                  &nbsp;
-                  <img
-                    style={{ inlineSize: "1.2em" }}
-                    src={PostgreSQLIcons}
-                    alt="PostgreSQL icon"
-                    srcset=""
-                  />
-                  &nbsp;
-                  <img
-                    style={{ inlineSize: "1.2em" }}
-                    src={MySQLIcons}
-                    alt="PostgreSQL icon"
-                    srcset=""
-                  />
-                  &nbsp;
-                  <img
-                    style={{ inlineSize: "1.2em" }}
-                    src={ElasticsearchIcons}
-                    alt="PostgreSQL icon"
-                    srcset=""
-                  />
                 </strong>
                 <br />
                 <strong>PL/SQL: &nbsp;&nbsp; </strong>
@@ -245,13 +220,6 @@ const SkillSection = () => {
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
                   DevOps: &nbsp;&nbsp;
-                  <img
-                    style={{ inlineSize: "1.2em" }}
-                    src={DevOpsIcons}
-                    alt="PostgreSQL icon"
-                    srcset=""
-                  />
-                  &nbsp;
                   <MDBIcon fab icon="aws" />
                   <MDBIcon fab icon="jenkins" />
                   <MDBIcon fab icon="git-alt" />
