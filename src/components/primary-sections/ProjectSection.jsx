@@ -5,6 +5,7 @@ import Project2 from "../../assets/images/projects/project2.png";
 import Project3 from "../../assets/images/projects/project3.png";
 import Project4 from "../../assets/images/projects/project4.png";
 import Project5 from "../../assets/images/projects/project5.png";
+import Project6 from "../../assets/images/projects/project6.png";
 
 const ProjectSection = () => {
   return (
@@ -15,7 +16,7 @@ const ProjectSection = () => {
           <div className="content">
             <div className="item featured text-center">
               <div className="featured-image has-ribbon">
-                <a href="https://backend.yatt.tech" target="blank">
+                <a href="https://blog.yatt.tech" target="blank">
                   <img
                     className="img-fluid project-image rounded shadow-sm"
                     src={LastProjectImage}
@@ -28,29 +29,72 @@ const ProjectSection = () => {
               </div>
 
               <h3 className="title mb-3">
-                <a href="https://backend.yatt.tech" target="blank">
-                  Restfull API for personal blog applications -
+                <a href="https://blog.yatt.tech" target="blank">
+                  Blog - For Developer and Entrepreneurs:
                   <em>&nbsp; In progress</em>
                 </a>
               </h3>
 
               <div className="desc text-start">
-                <p>
-                  A production ready django application, the goal is to build a
-                  powerful open source api, easy to use and maintainable, that
-                  can work smoothly with any frontend stack like react, Vuejs
-                  etc.
-                </p>
+                <center>
+                  A web application blog to relate technologies informations and
+                  some useful tools about development and entrepreneurship. Made
+                  with: Reactjs, Html, CSS3, JAVASCRIPT/TYPESCRIPT and more.
+                </center>
               </div>
               <a
                 className="btn btn-cta-secondary"
-                href="https://backend.yatt.tech"
+                href="https://blog.yatt.tech"
                 target="blank"
               >
                 <i className="fas fa-thumbs-up"></i> Back my project
               </a>
             </div>
             <hr className="divider" />
+            <div className="item row">
+              <a
+                className="col-md-4 col-12"
+                href="http://backend.yatt.tech"
+                target="blank"
+              >
+                <img
+                  className="img-fluid project-image rounded shadow-sm"
+                  src={Project6}
+                  alt="project name"
+                />
+              </a>
+              <div className="desc col-md-8 col-12">
+                <h3 className="title">
+                  <a href="http://backend.yatt.tech" target="blank">
+                    Backend Restfull API for personal blog applications
+                  </a>
+                </h3>
+                <p className="mb-2">
+                  A production ready django application, the goal is to build a
+                  powerful open source api, easy to use and maintainable, that
+                  can work smoothly with any frontend stack like react, Vuejs
+                  etc.
+                  <br />
+                  <strong>Main stack used: &nbsp;</strong>
+                  <em>
+                    Python, Django, DRF, CI/CD, AWS, HTML, CSS3, JAVASCRIPT,
+                    GitHub, Github Action
+                  </em>
+                  <br />
+                  <strong>Status: &nbsp;</strong>
+                  <em>In progress</em>
+                </p>
+                <p>
+                  <a
+                    className="more-link"
+                    href="http://backend.yatt.tech"
+                    target="blank"
+                  >
+                    <i className="fas fa-external-link-alt"></i>Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
             <div className="item row">
               <a
                 className="col-md-4 col-12"
