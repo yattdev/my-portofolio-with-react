@@ -54,7 +54,7 @@ const ProjectSection = () => {
             <div className="item row">
               <a
                 className="col-md-4 col-12"
-                href="http://backend.yatt.tech"
+                href="http://blog.remote.yatt.tech"
                 target="blank"
               >
                 <img
@@ -65,7 +65,7 @@ const ProjectSection = () => {
               </a>
               <div className="desc col-md-8 col-12">
                 <h3 className="title">
-                  <a href="http://backend.yatt.tech" target="blank">
+                  <a href="http://blog.remote.yatt.tech" target="blank">
                     Backend Restfull API for personal blog applications
                   </a>
                 </h3>
@@ -87,7 +87,7 @@ const ProjectSection = () => {
                 <p>
                   <a
                     className="more-link"
-                    href="http://backend.yatt.tech"
+                    href="http://blog.remote.yatt.tech"
                     target="blank"
                   >
                     <i className="fas fa-external-link-alt"></i>Find out more
