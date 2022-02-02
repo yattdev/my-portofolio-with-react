@@ -121,7 +121,7 @@ const SkillSection = () => {
           </blockquote>
           <div className="content">
             <div className="item">
-              {/* Backend web tools */}
+              {/* Backend web/mobile tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
                   Backend Web/Mobile: &nbsp;&nbsp;
