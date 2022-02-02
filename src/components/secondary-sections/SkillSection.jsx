@@ -124,7 +124,7 @@ const SkillSection = () => {
               {/* Backend web tools */}
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
-                  Backend Web: &nbsp;&nbsp;
+                  Backend Web/Mobile: &nbsp;&nbsp;
                   <MDBIcon fab icon="python" />
                   <MDBIcon fab icon="js" />
                   <MDBIcon fas icon="bug" />
@@ -143,7 +143,8 @@ const SkillSection = () => {
                 <strong>Javascript/Typescript: &nbsp;&nbsp;</strong>
                 <span>NodeJs</span>
                 <br />
-                <strong>Testing: &nbsp;&nbsp;</strong> Unit-tests, JMeter
+                <strong>Testing: &nbsp;&nbsp;</strong> Unit-tests, JMeter,
+                Katalon, Selenuim, Cypress.io, Jest.io
               </p>
               {/* API Specification web tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -164,12 +165,25 @@ const SkillSection = () => {
                 </strong>
                 <br />
                 <strong>Javascript/Typescript: &nbsp;&nbsp; </strong>
-                <span>ReactJS, VueJS, AngularJS</span>
+                <span>ReactJS, NextJS(React), VueJS, NuxtJS(VueJS)</span>
                 <br />
                 <strong>CMS: </strong>
                 <span>Django CMS, WordPress, Prestashop</span>
                 <br />
-                <strong>Testing: &nbsp;&nbsp;</strong> Selenium, Katalon
+                <strong>Testing: &nbsp;&nbsp;</strong> Selenium, Katalon, JMeter
+              </p>
+              {/* Mobile tools */}
+              <p style={{ textIndent: "-0.6em" }}>
+                <strong style={{ fontSize: "1.1em" }}>
+                  Mobile: &nbsp;&nbsp;
+                  <MDBIcon fas icon="mobile" />
+                  <MDBIcon fab icon="react" />
+                  <MDBIcon fab icon="vuejs" />
+                </strong>
+                <br />
+                <span>React Native, NextJS(React), NuxtJS(Vuejs)</span>
+                <br />
+                <strong>Testing: &nbsp;&nbsp;</strong> Cypress.io, Jest.io
               </p>
               {/* UI Design web tools */}
               <p style={{ textIndent: "-0.6em" }}>
@@ -191,6 +205,7 @@ const SkillSection = () => {
                 <strong style={{ fontSize: "1.1em" }}>
                   Databases: &nbsp;&nbsp;
                   <MDBIcon fas icon="database" />
+                  <MDBIcon fas icon="search" />
                 </strong>
                 <br />
                 <strong>PL/SQL: &nbsp;&nbsp; </strong>
@@ -229,7 +244,7 @@ const SkillSection = () => {
                 </strong>
                 <br />
                 <span>
-                  Git, GitGuardian, Github Action, Docker/Compose, CircleCI,
+                  Git, GitGuardian, Github Actions, Docker/Compose, CircleCI,
                   AWS(EC2, S3, RDS, ECR), Heroku, Jenkins.
                 </span>
               </p>
@@ -246,6 +261,7 @@ const SkillSection = () => {
               <p style={{ textIndent: "-0.6em" }}>
                 <strong style={{ fontSize: "1.1em" }}>
                   Operating Systems: &nbsp;&nbsp;
+                  <MDBIcon fab icon="linux" />
                   <MDBIcon fab icon="ubuntu" />
                   <MDBIcon fab icon="apple" />
                   <MDBIcon fab icon="windows" />
@@ -285,10 +301,7 @@ const SkillSection = () => {
             </div>
           </div>
           <p>
-            <a
-              className="more-link"
-              href="https://www.linkedin.com/in/alassane-yattara-587477166/"
-            >
+            <a className="more-link" href="https://www.linkedin.com/in/yattara">
               <i className="fas fa-external-link-alt"></i>More on Linkedin
             </a>
           </p>
