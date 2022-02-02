@@ -6,6 +6,7 @@ import Project3 from "../../assets/images/projects/project3.png";
 import Project4 from "../../assets/images/projects/project4.png";
 import Project5 from "../../assets/images/projects/project5.png";
 import Project6 from "../../assets/images/projects/project6.png";
+import Project7 from "../../assets/images/projects/project7.png";
 
 const ProjectSection = () => {
   return (
@@ -16,11 +17,11 @@ const ProjectSection = () => {
           <div className="content">
             <div className="item featured text-center">
               <div className="featured-image has-ribbon">
-                <a href="https://blog.yatt.tech" target="blank">
+                <a href="https://mail-checker.yatt.tech" target="blank">
                   <img
                     className="img-fluid project-image rounded shadow-sm"
                     src={LastProjectImage}
-                    alt="RESTFULL API DOCS for personal blog website"
+                    alt="Free email checker website"
                   />
                 </a>
                 <div className="ribbon">
@@ -29,28 +30,77 @@ const ProjectSection = () => {
               </div>
 
               <h3 className="title mb-3">
-                <a href="https://blog.yatt.tech" target="blank">
-                  Blog - For Developer and Entrepreneurs:
-                  <em>&nbsp; In progress</em>
+                <a href="https://mail-checker.yatt.tech" target="blank">
+                  Email Checker
                 </a>
               </h3>
 
               <div className="desc text-start">
                 <center>
-                  A web application blog to relate technologies informations and
-                  some useful tools about development and entrepreneurship. Made
-                  with: Reactjs, Html, CSS3, JAVASCRIPT/TYPESCRIPT and more.
+                  Email Checker is a simple little tool for verifying an email
+                  address. It's free and quite easy to use. Just enter the email
+                  address and hit the check button. It tells you whether the
+                  email id is real or fake. Sometimes, it’s unable to correctly
+                  predict and say unknown because some email providers have put
+                  some limits and restrictions or they simply don’t like any
+                  verification checks on their mailboxes.
+                  <br />
+                  <strong>Made with</strong>: VueJS(JavaScript/TypeScript),
+                  HTML5, CSS3, Github Actions, Netify, CI/CD, Cypress.io,
+                  Jest.io and more.
                 </center>
               </div>
               <a
                 className="btn btn-cta-secondary"
-                href="https://blog.yatt.tech"
+                href="https://mail-checker.yatt.tech"
                 target="blank"
               >
                 <i className="fas fa-thumbs-up"></i> Back my project
               </a>
             </div>
             <hr className="divider" />
+            <div className="item row">
+              <a
+                className="col-md-4 col-12"
+                href="http://blog.yatt.tech"
+                target="blank"
+              >
+                <img
+                  className="img-fluid project-image rounded shadow-sm"
+                  src={Project7}
+                  alt="project name"
+                />
+              </a>
+              <div className="desc col-md-8 col-12">
+                <h3 className="title">
+                  <a href="http://blog.yatt.tech" target="blank">
+                    Blog - For Developer and Entrepreneurs:
+                  </a>
+                </h3>
+                <p className="mb-2">
+                  A web application blog to relate technologies informations and
+                  some useful tools about development and entrepreneurship.
+                  <br />
+                  <strong>Main stack used: &nbsp;</strong>
+                  <em>
+                    Reactjs, Html, CSS3, JAVASCRIPT/TYPESCRIPT, Github Actions,
+                    CI/CD and more.
+                  </em>
+                  <br />
+                  <strong>Status: &nbsp;</strong>
+                  <em>In progress</em>
+                </p>
+                <p>
+                  <a
+                    className="more-link"
+                    href="http://blog.yatt.tech"
+                    target="blank"
+                  >
+                    <i className="fas fa-external-link-alt"></i>Find out more
+                  </a>
+                </p>
+              </div>
+            </div>
             <div className="item row">
               <a
                 className="col-md-4 col-12"
@@ -82,7 +132,7 @@ const ProjectSection = () => {
                   </em>
                   <br />
                   <strong>Status: &nbsp;</strong>
-                  <em>In progress</em>
+                  <em>Done</em>
                 </p>
                 <p>
                   <a
